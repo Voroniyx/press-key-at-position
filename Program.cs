@@ -4,7 +4,7 @@ using System.Runtime.InteropServices;
 using System.Threading;
 using System.Windows.Forms;
 
-class Test
+class Program
 {
     [DllImport("user32.dll")]
     public static extern int GetAsyncKeyState(int i);
